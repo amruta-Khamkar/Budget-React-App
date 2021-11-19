@@ -1,37 +1,5 @@
 {
   "EmpData": [
-    {
-      "id": 1,
-      "name": "amrutakhamkar",
-      "user": "104465880292137912694",
-      "email": "amrutakhamkar15@gmail.com",
-      "password": "loged",
-      "total": 5000,
-      "passbook": [],
-      "expense": 0,
-      "balance": 5000
-    },
-    {
-      "name": "amruta",
-      "user": "amruta123",
-      "email": "amrutakhamkar15@gmail.com",
-      "password": "U2FsdGVkX19z+LBvke78879j7Relz1VLOg910Xzfi8g=",
-      "total": 0,
-      "passbook": [],
-      "expense": 0,
-      "balance": 0,
-      "id": 2
-    },
-    {
-      "name": "ddghth",
-      "user": "dgdg123",
-      "email": "sonu@gmail.com",
-      "password": "U2FsdGVkX19/Nf3KW7k+b6okB0Qh0b/OA+E6QXKF/ow=",
-      "total": 10000,
-      "passbook": [],
-      "expense": 0,
-      "balance": 10000,
-      "id": 3
-    }
+   
   ]
 }

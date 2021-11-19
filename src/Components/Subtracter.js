@@ -43,7 +43,6 @@ export default function Subtracter() {
         for(let i=0;i<temp.passbook.length;i++){
             exp=exp+parseInt(temp.passbook[i].expense);
         }
-        alert(exp)
         temp.expense = exp;
         temp.balance = parseInt(temp.total) - parseInt(temp.expense);
         setLoger(temp);
@@ -70,8 +69,7 @@ export default function Subtracter() {
             for(let i=0;i<temp.passbook.length;i++){
                 exp=exp+parseInt(temp.passbook[i].expense);
             }
-            alert(exp)
-            temp.expense = exp;
+       temp.expense = exp;
             temp.balance = parseInt(temp.total) - parseInt(temp.expense);
             axios.put(`http://localhost:3001/EmpData/${loger.id}`,temp)
             setLoger(temp);

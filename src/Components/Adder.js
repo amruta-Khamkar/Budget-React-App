@@ -19,7 +19,6 @@ export default function Adder() {
         for(let i=0;i<temp.passbook.length;i++){
             exp=exp+parseInt(temp.passbook[i].expense);
         }
-        alert(exp)
         temp.expense = exp;
         setLoger(temp);
         sessionStorage.setItem('user', JSON.stringify(temp));
